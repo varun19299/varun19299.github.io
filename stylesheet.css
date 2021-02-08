@@ -129,3 +129,13 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.tab { 
+  float: left;
+  margin-right: 5px;
+  justify-content: space-between;
+  width: 95px;
+  display: block;
+  clear: left;
+  box-sizing: border-box;
+}
