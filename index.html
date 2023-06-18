@@ -27,7 +27,7 @@
                   <p style="text-align:center">
                     <name>Varun Sundar</name>
                   </p>
-                  <p>I am a <del>first</del> <ins>second</ins> year PhD student at the <a
+                  <p>I am a <del>first</del> <del>second</del> <ins>third</ins> year PhD student at the <a
                       href="https://www.wisc.edu">University of Wisconsin
                       Madison</a>, working with <a href="http://pages.cs.wisc.edu/~mohitg">Mohit Gupta</a> at the <a
                       href="http://wisionlab.cs.wisc.edu">WISION Lab</a>.
@@ -93,6 +93,7 @@
                     <font color="red"><strong>News:</strong></font>
                   </p> -->
                   <ul>
+                    <li><b><span class="tab">(Mar 28th, 23)</span></b> One paper accepted at SIGGRAPH!</li>
                     <li><b><span class="tab">(Mar 6th, 22)</span></b> One first-authored paper accepted at CVPR. First
                       paper of my PhD!</li>
                     <li><b><span class="tab">(Mar 31st, 21)</span></b> Our reproducibility work has been accepted for
@@ -144,6 +145,40 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="color_SPAD_stop()" onmouseover="color_SPAD_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img id="color_SPAD" src="images/color_SPAD_blur.png" alt="color SPAD"
+                    style="border-style: none" width="160">
+                  <script type="text/javascript">
+                    function color_SPAD_start() {
+                      document.getElementById('color_SPAD').src = "images/color_SPAD_sharp.png";
+                    }
+                    function color_SPAD_stop() {
+                      document.getElementById('color_SPAD').src = "images/color_SPAD_blur.png";
+                    }
+                    tp_stop()
+                  </script>
+                </td>
+                <td width="75%" valign="middle">
+                  <papertitle>Seeing Photons in Color</papertitle>
+                  <br>
+                  Sizhuo Ma,
+                  <strong>Varun Sundar</strong>,
+                  Paul Mos,
+                  Claudio Bruschini,
+                  Edoardo Charbon,
+                  Mohit Gupta.
+                  <br>
+                  <em>SIGGRAPH 2023</em>
+                  <br><br>
+                    <a href="https://wisionlab.com/project/seeing-photons-in-color/">project page</a>
+                  <p><i>Paper-specific details coming soon!</i></p>
+                </td>
+              </tr>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
               <tr onmouseout="single_photon_stop()" onmouseover="single_photon_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <img id="single_photon" src="images/single-photon.png" alt="Single-Photon-SL"
@@ -159,25 +194,20 @@
                   </script>
                 </td>
                 <td width="75%" valign="middle">
-                  <a href="">
                     <papertitle>Single-Photon Structured Light</papertitle>
-                  </a>
                   <br>
                   <strong>Varun Sundar</strong>,
-                  <a href="">Sizhuo Ma</a>,
-                  <a href="">Aswin Sankarnarayanan</a>,
-                  <a href="">Mohit Gupta</a>
+                  Sizhuo Ma,
+                  Aswin Sankarnarayanan,
+                  Mohit Gupta.
                   <br>
                   <em>Computer Vision and Pattern Recognition (CVPR) 2022</em>
-                  <br>
-                  <!-- <a href="https://openreview.net/forum?id=riCIeP6LzEE">OpenReview</a>
-                  / <a href="https://arxiv.org/abs/2103.15767">arXiv</a>
-                  / <a href="https://www.youtube.com/watch?v=R13U0kMcYDQ&t=2020s">YouTube</a>
-                  / <a
-                    href="https://wandb.ai/ml-reprod-2020/cifar10/reports/Reproducibility-Challenge-Rigging-the-Lottery-Making-All-Tickets-Winners--Vmlldzo1MzM0NDQ">W&B
-                    Report</a>
-                  / <a href="data/RigL_openreview.bib">bibtex</a> -->
-                  <p><i>Paper-specific details coming soon!</i></p>
+                  <br><br>
+                    <a href="https://wisionlab.com/project/single-photon-sl/">project page</a> /
+                    <a href="https://arxiv.org/abs/2204.05300">arXiv</a> /
+                    <a href="https://www.youtube.com/watch?v=bP78sU8GOxc">video</a> /
+                    <a href="data/single_photon_SL.bib">bibtex</a>
+                  <p>Single-Photon Avalanche Diodes (SPADs) can be operated as extremely high-speed binary imagers and find a synergistic application in Structuered Light.</p>
                 </td>
               </tr>
 
@@ -186,23 +216,21 @@
                   <img src="images/rigl.png" alt="RigL_png" style="border-style: none" width="160">
                 </td>
                 <td width="75%" valign="middle">
-                  <a href="https://openreview.net/forum?id=riCIeP6LzEE">
                     <papertitle>[Reproducibility Report]: Rigging the Lottery: Making All Tickets Winners</papertitle>
-                  </a>
                   <br>
                   <strong>Varun Sundar</strong>,
-                  <a href="https://rajatvd.github.io">Rajat Vadiraj Dwaraknath</a>
+                  Rajat Vadiraj Dwaraknath.
                   <br>
                   <em>ML Reproducibility Challenge 2020, Rescience-C Journal</em>
-                  <br>
-                  <a href="https://openreview.net/forum?id=riCIeP6LzEE">OpenReview</a>
-                  / <a href="https://arxiv.org/abs/2103.15767">arXiv</a>
-                  / <a href="https://www.youtube.com/watch?v=R13U0kMcYDQ&t=2020s">YouTube</a>
-                  / <a
+                  <br><br>
+                  <a href="https://openreview.net/forum?id=riCIeP6LzEE">OpenReview</a> / 
+                  <a href="https://arxiv.org/abs/2103.15767">arXiv</a> /
+                  <a href="https://www.youtube.com/watch?v=R13U0kMcYDQ&t=2020s">YouTube</a> / 
+                  <a
                     href="https://wandb.ai/ml-reprod-2020/cifar10/reports/Reproducibility-Challenge-Rigging-the-Lottery-Making-All-Tickets-Winners--Vmlldzo1MzM0NDQ">W&B
-                    Report</a>
-                  / <a href="data/RigL_openreview.bib">bibtex</a>
-                  <p>Reproducibility Report on the ICML 2020 paper, Rigging the Lottery: Making All Tickets Winners.</p>
+                    Report</a> /
+                  <a href="data/RigL_openreview.bib">bibtex</a>
+                  <p>Reproducibility Report on the ICML 2020 paper "Rigging the Lottery: Making All Tickets Winners".</p>
                 </td>
               </tr>
 
@@ -224,15 +252,15 @@
                 </td>
                 <td valign="middle" width="75%">
                   <p>
-                    <papertitle><a href="https://varun19299.github.io/deep-atrous-guided-filter/">Deep Atrous Guided
+                    <papertitle>Deep Atrous Guided
                         Filter
-                        for Image Restoration in Under Display Cameras</a></papertitle><br>
+                        for Image Restoration in Under Display Cameras</papertitle><br>
                     <strong>Varun Sundar*</strong>,
-                    <a href="https://github.com/SumanthRH">Sumanth Hegde*</a>,
-                    <a href="https://github.com/divyakraman">Divya K Raman</a>,
-                    <a href="http://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
+                    Sumanth Hegde*,
+                    Divya K Raman,
+                    Kaushik Mitra.<br>
                     <em>ECCV RLQ-TOD Workshop, 2020</em>
-                    <br>
+                    <br><br>
                     <a href="https://varun19299.github.io/deep-atrous-guided-filter/">project page</a> /
                     <a href="https://arxiv.org/abs/2008.06229">arXiv</a> /
                     <a href="https://youtu.be/WnNOg178iSk">video</a> /
@@ -261,15 +289,16 @@
                 </td>
                 <td valign="middle" width="75%">
                   <p>
-                    <papertitle><a href="https://siddiquesalman.github.io/flatnet">FlatNet: Towards Photorealistic Scene
-                        Reconstruction from Lensless Measurements</a></papertitle><br>
-                    <a href="http://siddiquesalman.github.io/">Salman S. Khan*</a>,
+                    <papertitle>FlatNet: Towards Photorealistic Scene
+                        Reconstruction from Lensless Measurements</papertitle>
+                        <br>
+                    Salman S. Khan*,
                     <strong>Varun Sundar*</strong>,
-                    <a href="https://vivekboominathan.com/">Vivek Boominathan</a>,
-                    <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>,
-                    <a href="http://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
+                    Vivek Boominathan,
+                    Ashok Veeraraghavan,
+                    Kaushik Mitra.<br>
                     <em>IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020</em>
-                    <br>
+                    <br><br>
                     <a href="https://siddiquesalman.github.io/flatnet/">project page</a> /
                     <a href="https://arxiv.org/abs/2010.15440">arXiv</a> /
                     <a href="https://youtu.be/GMouWS_Zoa4">video</a> /
