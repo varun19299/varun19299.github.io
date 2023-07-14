@@ -93,6 +93,7 @@
                     <font color="red"><strong>News:</strong></font>
                   </p> -->
                   <ul>
+                    <li><b><span class="tab">(Jul 13th, 23)</span></b> One first-authored paper accepted at ICCV!</li>
                     <li><b><span class="tab">(Mar 28th, 23)</span></b> One paper accepted at SIGGRAPH!</li>
                     <li><b><span class="tab">(Mar 6th, 22)</span></b> One first-authored paper accepted at CVPR. First
                       paper of my PhD!</li>
@@ -141,6 +142,41 @@
               </tr>
             </tbody>
           </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr onmouseout="SoDaCam_stop()" onmouseover="SoDaCam_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img id="SoDaCam" src="images/falling_die.png" alt="Falling Die"
+                    style="border-style: none" width="160">
+                  <script type="text/javascript">
+                    function SoDaCam_start() {
+                      document.getElementById('SoDaCam').src = "images/motion_stack_animation.gif";
+                    }
+                    function SoDaCam_stop() {
+                      document.getElementById('SoDaCam').src = "images/falling_die.png";
+                    }
+                    tp_stop()
+                  </script>
+                </td>
+                <td width="75%" valign="middle">
+                  <papertitle>Seeing Photons in Color</papertitle>
+                  <br>
+                  <strong>Varun Sundar</strong>,
+                  Andrei Ardelean,
+                  Tristan Swedish,
+                  Claudio Bruschini,
+                  Edoardo Charbon,
+                  Mohit Gupta.
+                  <br>
+                  <em>ICCV 2023</em>
+                  <br><br>
+                    <a href="https://wisionlab.com/project/SoDaCam/">project page</a>
+                  <p><i>Photon-level software-defined cameras can emulate a diverse range of imaging modalities.</i></p>
+                </td>
+              </tr>
+
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
