@@ -27,7 +27,7 @@
                   <p style="text-align:center">
                     <name>Varun Sundar</name>
                   </p>
-                  <p>I am a <del>first</del> <del>second</del> <ins>third</ins> year PhD student at the <a
+                  <p>I am a <del>first</del> <del>second</del> <del>third</del> <ins>fourth</ins> year PhD student at the <a
                       href="https://www.wisc.edu">University of Wisconsin
                       Madison</a>, working with <a href="http://pages.cs.wisc.edu/~mohitg">Mohit Gupta</a> at the <a
                       href="http://wisionlab.cs.wisc.edu">WISION Lab</a>.
@@ -68,7 +68,7 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Research</heading>
+                  <heading>Research Focus</heading>
                   <p>
                     I'm interested in computer vision, computational imaging and machine learning. Broadly, I wish
                     to harness a conjuction of newer hardware and smarter algorithms to tackle a variety of problems. My
@@ -145,6 +145,44 @@
           </table>
 
           <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr onmouseout="GenEv_stop()" onmouseover="GenEv_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img id="GenEv" src="images/slingshot_ours.gif" alt="Table tennis ball being slingshotted"
+                  style="border-style: none" width="160">
+                <script type="text/javascript">
+                  function GenEv_start() {
+                    document.getElementById('GenEv').src = "images/slingshot_plasma_event_levels.gif";
+                  }
+                  function GenEv_stop() {
+                    document.getElementById('GenEv').src = "images/slingshot_ours.gif";
+                  }
+                  tp_stop()
+                </script>
+              </td>
+              <td width="75%" valign="middle">
+                <papertitle>Generalized Event Cameras</papertitle>
+                <br>
+                <strong>Varun Sundar*</strong>,
+                Matt Dutson*,
+                Andrei Ardelean,
+                Claudio Bruschini,
+                Edoardo Charbon,
+                Mohit Gupta.
+                <br>
+                <em>CVPR 2024</em><br>
+                * denotes equal contribution. <br>
+                <!-- <br><br> -->
+                  <a href="https://wisionlab.com/project/GenEv/">project page</a> /
+                  <a href="https://pages.cs.wisc.edu/~vsundar4/GenEv.mp4">video</a> /
+                  <a href="data/generalized_events.bib">bibtex</a>
+                <p>Single-photon cameras can not only emulate event cameras, but also facilitate a generalized space of intensity-preserving event cameras.</p>
+              </td>
+            </tr>
+
+
+          <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr onmouseout="SoDaCam_stop()" onmouseover="SoDaCam_start()">
@@ -171,8 +209,7 @@
                   Edoardo Charbon,
                   Mohit Gupta.
                   <br>
-                  <em>ICCV 2023 (Oral)</em>
-                  <br><br>
+                  <em>ICCV 2023 (Oral)</em><br>
                     <a href="https://wisionlab.com/project/SoDaCam/">project page</a> /
                     <a href="https://pages.cs.wisc.edu/~vsundar4/sodacam_teaser.mp4">video</a> /
                     <a href="data/sodacam.bib">bibtex</a>
@@ -209,7 +246,7 @@
                   Mohit Gupta.
                   <br>
                   <em>SIGGRAPH 2023</em>
-                  <br><br>
+                  <br>
                     <a href="https://wisionlab.com/project/seeing-photons-in-color/">project page</a> /
                     <a href="https://youtu.be/9K0_voULaH0">video</a> /
                     <a href="data/colorSPAD.bib">bibtex</a>
@@ -243,7 +280,7 @@
                   Mohit Gupta.
                   <br>
                   <em>Computer Vision and Pattern Recognition (CVPR) 2022</em>
-                  <br><br>
+                  <br>
                     <a href="https://wisionlab.com/project/single-photon-sl/">project page</a> /
                     <a href="https://arxiv.org/abs/2204.05300">arXiv</a> /
                     <a href="https://www.youtube.com/watch?v=bP78sU8GOxc">video</a> /
@@ -263,7 +300,7 @@
                   Rajat Vadiraj Dwaraknath.
                   <br>
                   <em>ML Reproducibility Challenge 2020, Rescience-C Journal</em>
-                  <br><br>
+                  <br>
                   <a href="https://openreview.net/forum?id=riCIeP6LzEE">OpenReview</a> / 
                   <a href="https://arxiv.org/abs/2103.15767">arXiv</a> /
                   <a href="https://www.youtube.com/watch?v=R13U0kMcYDQ&t=2020s">YouTube</a> / 
@@ -300,8 +337,9 @@
                     Sumanth Hegde*,
                     Divya K Raman,
                     Kaushik Mitra.<br>
-                    <em>ECCV RLQ-TOD Workshop, 2020</em>
-                    <br><br>
+                    <em>ECCV RLQ-TOD Workshop, 2020</em><br>
+                    * denotes equal contribution.
+                    <br>
                     <a href="https://varun19299.github.io/deep-atrous-guided-filter/">project page</a> /
                     <a href="https://arxiv.org/abs/2008.06229">arXiv</a> /
                     <a href="https://youtu.be/WnNOg178iSk">video</a> /
@@ -338,8 +376,9 @@
                     Vivek Boominathan,
                     Ashok Veeraraghavan,
                     Kaushik Mitra.<br>
-                    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020</em>
-                    <br><br>
+                    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020</em><br>
+                    * denotes equal contribution.
+                    <br>
                     <a href="https://siddiquesalman.github.io/flatnet/">project page</a> /
                     <a href="https://arxiv.org/abs/2010.15440">arXiv</a> /
                     <a href="https://youtu.be/GMouWS_Zoa4">video</a> /
